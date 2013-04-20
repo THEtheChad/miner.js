@@ -306,7 +306,8 @@ function encodedData(){
       var name = ele.name;
       data[type] += "SELECT " + ele.name + "\n";
       for(var j = 0, jlen = opts.length; j < ilen; j++){
-        data[type] += ele.innerText + "=" + ele.value + "\n";
+        var option = opts[j];
+        data[type] += option.innerText + "=" + option.value + "\n";
       }
     }else{
       data[type] += ele.name + "=" + ele.value + "\n";
