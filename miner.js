@@ -334,7 +334,4 @@ document.onkeydown = function(e){
   }
 }
 
-data.form_id = prompt("Please enter the form ID");
-
-
-
+data.formID = prompt("Please enter the form ID");
