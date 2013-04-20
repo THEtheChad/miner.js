@@ -5,7 +5,6 @@ var SUBMISSION_URL = "https://script.google.com/macros/s/AKfycbzMERYMJ3QI7-gjmP9
 
 var FIELDS = {
   "":"...",
-  "formID":"formID",
   "ciceroID":"ciceroID",
   "legState":"legState",
   "district":"district",
