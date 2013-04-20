@@ -49,6 +49,9 @@ var FIELDS = {
   "dtlastupdate":"dtlastupdate"
 };
 
+var data = {};
+data.formID = prompt("Please enter the form ID");
+
 //
 // GLOBAL VARS
 //
@@ -253,9 +256,6 @@ function removeDialogue(e){
   body.appendChild(modal);
 }
 
-
-var data = {};
-
 //
 // Get current URL
 //
@@ -332,5 +332,3 @@ document.onkeydown = function(e){
     alert("Data Sent!");
   }
 }
-
-data.formID = prompt("Please enter the form ID");
