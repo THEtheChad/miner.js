@@ -325,9 +325,9 @@ function serialize(obj){
 }
 
 document.onkeydown = function(e){
-  var enter = 13;
+  var s = 83;
 
-  if (e && e.keyCode == enter) {
+  if (e && e.keyCode == s) {
     http.send(encodedData());
     alert("Data Sent!");
   }
